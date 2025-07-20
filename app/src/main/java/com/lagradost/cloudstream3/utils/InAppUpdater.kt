@@ -33,8 +33,8 @@ import java.io.InputStreamReader
 
 class InAppUpdater {
     companion object {
-        private const val GITHUB_USER_NAME = "recloudstream"
-        private const val GITHUB_REPO = "cloudstream"
+        private const val GITHUB_USER_NAME = "reopenstream"
+        private const val GITHUB_REPO = "openstream"
 
         private const val LOG_TAG = "InAppUpdater"
 
@@ -75,6 +75,11 @@ class InAppUpdater {
 
         private suspend fun Activity.getAppUpdate(): Update {
             return try {
+                // Disable automatic updates for OpenStream - return no update available
+                Log.d(LOG_TAG, "OpenStream: Automatic updates disabled")
+                Update(false, null, null, null, null)
+
+                /* Original update logic - commented out for OpenStream
                 val settingsManager = PreferenceManager.getDefaultSharedPreferences(this)
                 if (settingsManager.getBoolean(
                         getString(R.string.prerelease_update_key),
@@ -85,6 +90,7 @@ class InAppUpdater {
                 } else {
                     getReleaseUpdate()
                 }
+                */
             } catch (e: Exception) {
                 Log.e(LOG_TAG, Log.getStackTraceString(e))
                 Update(false, null, null, null, null)
@@ -208,7 +214,7 @@ class InAppUpdater {
         private suspend fun Activity.downloadUpdate(url: String): Boolean {
             try {
                 Log.d(LOG_TAG, "Downloading update: $url")
-                val appUpdateName = "CloudStream"
+                val appUpdateName = "OpenStream"
                 val appUpdateSuffix = "apk"
 
                 // Delete all old updates
