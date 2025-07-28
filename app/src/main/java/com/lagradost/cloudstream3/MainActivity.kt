@@ -1888,6 +1888,8 @@ class MainActivity : AppCompatActivity(), ColorPickerDialogListener, BiometricCa
     }
 
     suspend fun checkGithubConnectivity(): Boolean {
+        return false // Disabled for OpenStream
+        /*
         return try {
             app.get(
                 "https://raw.githubusercontent.com/recloudstream/.github/master/connectivitycheck",
@@ -1896,5 +1898,6 @@ class MainActivity : AppCompatActivity(), ColorPickerDialogListener, BiometricCa
         } catch (t: Throwable) {
             false
         }
+        */
     }
 }

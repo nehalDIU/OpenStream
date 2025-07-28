@@ -33,8 +33,8 @@ import java.io.InputStreamReader
 
 class InAppUpdater {
     companion object {
-        private const val GITHUB_USER_NAME = "recloudstream"
-        private const val GITHUB_REPO = "cloudstream"
+        private const val GITHUB_USER_NAME = "openstream-disabled"
+        private const val GITHUB_REPO = "no-updates"
 
         private const val LOG_TAG = "InAppUpdater"
 
@@ -261,7 +261,7 @@ class InAppUpdater {
 
             if (!checkAutoUpdate || settingsManager.getBoolean(
                     getString(R.string.auto_update_key),
-                    true
+                    false
                 )
             ) {
                 val update = getAppUpdate()
