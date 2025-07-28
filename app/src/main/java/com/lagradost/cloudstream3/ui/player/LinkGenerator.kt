@@ -2,7 +2,7 @@ package com.lagradost.cloudstream3.ui.player
 
 import android.net.Uri
 import com.lagradost.cloudstream3.TvType
-import com.lagradost.cloudstream3.actions.temp.OpenStreamPackage
+import com.lagradost.cloudstream3.actions.temp.CloudStreamPackage
 import com.lagradost.cloudstream3.amap
 import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.ExtractorLinkType
@@ -105,8 +105,8 @@ class LinkGenerator(
 }
 
 class MinimalLinkGenerator(
-    private val links: List<OpenStreamPackage.MinimalVideoLink>,
-    private val subs: List<OpenStreamPackage.MinimalSubtitleLink>,
+    private val links: List<CloudStreamPackage.MinimalVideoLink>,
+    private val subs: List<CloudStreamPackage.MinimalSubtitleLink>,
     private val id : Int? = null
 ) : IGenerator {
     override val hasCache = false

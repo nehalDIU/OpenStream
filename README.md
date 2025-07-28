@@ -1,111 +1,80 @@
 # OpenStream
 
-**⚠️ Warning: By default, this app doesn't provide any video sources; you have to install extensions to add functionality to the app.**
+⚡ **Blazingly fast** • 🕊️ **Lightweight** • 🔓 **Open-source**
 
-[![Discord](https://invidget.switchblade.xyz/5Hus6fM)](https://discord.gg/5Hus6fM)
+**Plug-and-play** streaming app that supports **providers** and **languages** you never heard of. 
 
+---
 
-## Table of Contents: 
-+ [About Us:](#about_us)
-+ [Installation Steps:](#install_rules)
-+ [Contributing:](#contributing)
-+ [Issues:](#issues)
-  + [Bugs Reports:](#bug_report)
-  + [Enhancement:](#enhancment)
-+ [Extension Development:](#extensions)
-+ [Language Support:](#languages)
-+ [Further Sources](#contact_and_sources)
+> [!IMPORTANT]
+> This repository does **not** contain any copyright protected or "pirate" content, and it is **not** officially affiliated with any content provider/copyright owner. All content streams/links are provided by third party providers available on the internet and provided to the user ***as-is***.
+> 
+> **Content is not stored or hosted by OpenStream**, and is not officially moderated or endorsed by OpenStream; if you or another copyright owner identify an extension that breaches your copyright, please let us know.
 
-
-<a id="about_us"></a>
-
-## About us: 
+---
 
 **OpenStream is a media center that prioritizes and emphasizes complete freedom and flexibility for users and developers.**
 
 OpenStream is an extension-based multimedia player with tracking support. There are extensions to view videos from:
 
-+ [Librevox (audio-books)](https://librivox.org/) 
-+ [Youtube](https://www.youtube.com/)
-+ [Twitch](https://www.twitch.tv/)
-+ [iptv-org (A collection of publicly available IPTV (Internet Protocol television) channels from all over the world.)](https://github.com/iptv-org/iptv) 
-+ [nginx](https://nginx.org/)
-+ And more... 
+- YouTube
+- Netflix
+- Stremio
+- And many, many more
 
+To download OpenStream Android releases, visit our [downloads page](https://recloudstream.github.io/csdocs/users/installation-android/).
 
-**Please don't create illegal extensions or use any that host any copyrighted media.** For more details about our stance on the DMCA and EUCD, you can read about it on our organization: [reOpenStream](https://github.com/reopenstream)
+⚠️ **For support, do not use GitHub Issues.** ⚠️ Instead, visit our [Discord](https://discord.gg/5Hus6fM) channel for faster assistance.
 
-#### Important Copyright Note: 
+## Disclaimer
 
-Our documentation is unmaintained and open to contributions; therefore, apps and sources, extensions in recommended sources, and recommended apps are not officially moderated or endorsed by OpenStream; if you or another copyright owner identify an extension that breaches your copyright, please let us know.
+**Any legal issues regarding this application should be taken up with the actual file hosts and providers, not us.** If you have any concerns or issues with the legality of content accessed by individual extensions, please contact the respective extension developers or the original file hosts and providers. We are not responsible for the contents of any external extensions, sites or content provided by users.
 
+**Additionally, we want to clarify that we didn't create, nor are we officially affiliated with any of the content providers available within our application.** For a complete list of available providers and more app information, you can read about it on our organization: [reOpenStream](https://github.com/recloudstream)
 
-#### Features:
-+ **AdFree**, No ads whatsoever
-+ No tracking/analytics
-+ Bookmarks
-+ Phone and TV support
-+ Chromecast
-+ Extension system for personal customization
-
-
-<a id="install_rules"></a>
-
-## Installation: 
+## Documentation
 
 Our documentation provides the steps to install and configure OpenStream for your streaming needs.
 
-[Getting Started With OpenStream:](https://reopenstream.github.io/csdocs/)
+[Getting Started With OpenStream:](https://recloudstream.github.io/csdocs/)
 
-<a id="contributing"></a>
+## Developer Documentation
 
-## Contributing:
-We **happily** accept any contributions to our project. To find out where you can start contributing towards the project, please look [at our issues tab](/openstream/issues)
+If you want to start contributing to the project, please look [at our issues tab](/cloudstream/issues)
 
+### Bug Reports + Feature Requests
 
+While we **actively** accept issues and pull requests, we do require you fill out an [template](https://github.com/recloudstream/cloudstream/issues/new/choose) for issues. These include the following:
 
-<a id="issues"></a> 
- 
-### Issues: 
-While we **actively** accept issues and pull requests, we do require you fill out an [template](https://github.com/reopenstream/openstream/issues/new/choose) for issues. These include the following:
+- [Bug Report Template: ](https://github.com/recloudstream/cloudstream/issues/new?assignees=&labels=bug&projects=&template=application-bug.yml)
 
-<a id="bug_report"></a>
+- [Extension Request Template: ](https://github.com/recloudstream/cloudstream/issues/new?assignees=&labels=feature&projects=&template=extension-request.yml)
 
-- [Bug Report Template: ](https://github.com/reopenstream/openstream/issues/new?assignees=&labels=bug&projects=&template=application-bug.yml)
-  - For bug reports, we want as much info as possible, including your downloaded version of OpenStream, device and updated version (if possible, current API),
-    expected behavior of the program, and the actual behavior that the program did, most importantly we require clear, reproducible steps of the bug. If your bug can't be       reproduced, it is unlikely we'll work on your issue.
-    
-<a id="enhancment"></a>
-  
-- [Feature Request Template: ](https://github.com/reopenstream/openstream/issues/new?assignees=&labels=enhancement&projects=&template=feature-request.yml)
-  - Before adding a feature request, please check to see if a feature request already has been requested.  
+- [Feature Request Template: ](https://github.com/recloudstream/cloudstream/issues/new?assignees=&labels=enhancement&projects=&template=feature-request.yml)
 
+- [Question Template: ](https://github.com/recloudstream/cloudstream/issues/new?assignees=&labels=question&projects=&template=question.yml)
 
-### Extensions:
- 
+### For Extension Developers
+
 **Further details on creating extensions for OpenStream are found in our documentation.**
 
-[Guide: For Extension Developers](https://reopenstream.github.io/csdocs/devs/gettingstarted/)
+[Guide: For Extension Developers](https://recloudstream.github.io/csdocs/devs/gettingstarted/)
 
-<a id="contact_and_sources"></a>
+## Installation & Setup
 
-## Further Sources: 
+As well as providing clear install steps, our [website](https://dweb.link/ipns/cloudstream.on.fleek.co/) includes a wide variety of other tools, such as:
+- [Troubleshooting](https://recloudstream.github.io/csdocs/troubleshooting/)
+- [Further OpenStream Repositories](https://recloudstream.github.io/csdocs/repositories/)
 
-As well as providing clear install steps, our [website](https://dweb.link/ipns/openstream.on.fleek.co/) includes a wide variety of other tools, such as:
-- [Troubleshooting](https://reopenstream.github.io/csdocs/troubleshooting/)
-- [Further OpenStream Repositories](https://reopenstream.github.io/csdocs/repositories/)
-- Set-Up for other devices, such as:
-  - [Android TV](https://reopenstream.github.io/csdocs/other-devices/tv/)
-  - [Windows](https://reopenstream.github.io/csdocs/other-devices/windows/)
-  - [Linux](https://reopenstream.github.io/csdocs/other-devices/linux/)
-- And more...
+### Installation for specific platforms
+- [Android TV](https://recloudstream.github.io/csdocs/other-devices/tv/)
+- [Windows](https://recloudstream.github.io/csdocs/other-devices/windows/)
+- [Linux](https://recloudstream.github.io/csdocs/other-devices/linux/)
 
-<a id="languages"> </a>  
+## Localization
 
-### Supported languages:
+You can help localize the app by translating the strings at [Hosted Weblate](https://hosted.weblate.org/engage/cloudstream/).
 
-Even if you can't contribute to the code or documentation, we always look for those who can contribute to translation and language support. Your contribution is exceptionally appreciated; you can check our translation from the figure below. 
+[<img src="https://hosted.weblate.org/widgets/cloudstream/-/app/multi-auto.svg" alt="Translation status" />](https://hosted.weblate.org/engage/cloudstream/)
 
-<a href="https://hosted.weblate.org/engage/openstream/">
-  <img src="https://hosted.weblate.org/widgets/openstream/-/app/multi-auto.svg" alt="Translation status" />
-</a>
+[//]: # (SPELLCHECK_EXCLUDE_FILE)

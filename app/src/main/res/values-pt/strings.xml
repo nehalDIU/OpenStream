@@ -608,7 +608,7 @@
     <string name="audio_book_singular">Livro Aúdio</string>
     <string name="custom_media_singluar">Multimédia</string>
     <string name="battery_dialog_title">Desativar a otimização da bateria</string>
-    <string name="battery_dialog_message">Para garantir descarregamentos ininterruptos e notificações de programas de TV subscritos, o OpenStream precisa de permissão para ser executado em segundo plano. Ao premir OK, será mostrado um diálogo. Prima \"Permitir\".\n\nTenha em atenção que esta permissão não significa que o OS3 irá esgotar a sua bateria. Este só funcionará em segundo plano quando necessário, como ao receber notificações ou baixar vídeos de extensões oficiais.</string>
+    <string name="battery_dialog_message">Para garantir descarregamentos ininterruptos e notificações de programas de TV subscritos, o OpenStream precisa de permissão para ser executado em segundo plano. Ao premir OK, será mostrado um diálogo. Prima \"Permitir\".\n\nTenha em atenção que esta permissão não significa que o CS3 irá esgotar a sua bateria. Este só funcionará em segundo plano quando necessário, como ao receber notificações ou baixar vídeos de extensões oficiais.</string>
     <string name="reset_btn">Reiniciar</string>
     <string name="next_season_episode_format" formatted="true">Episódio %1$d Episódio %2$d vai ser lançado em</string>
     <string name="player_settings_select_cast_device">Escolha o dispositivo</string>

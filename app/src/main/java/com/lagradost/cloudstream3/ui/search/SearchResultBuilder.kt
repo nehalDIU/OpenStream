@@ -81,7 +81,7 @@ object SearchResultBuilder {
         val showDub = showCache[textIsDub?.context?.getString(R.string.show_dub_key)] ?: false
         val showTitle = showCache[cardText?.context?.getString(R.string.show_title_key)] ?: false
         val showHd = showCache[textQuality?.context?.getString(R.string.show_hd_key)] ?: false
-
+        val showRatingView = showCache[textQuality?.context?.getString(R.string.show_rating_key)] ?: false
         if(card is SyncAPI.LibraryItem) {
             val showRating = (card.personalRating ?: 0) != 0
             rating?.isVisible = showRating
@@ -90,6 +90,13 @@ object SearchResultBuilder {
                 val ratingText = ((card.personalRating ?: 0).toDouble() / 10).toString()
                     .replace(".0", "")
 
+                rating?.text = ratingText
+            }
+        } else if(showRatingView) {
+            val ratingText = card.score?.toStringNull(0.1, 10, 1)
+            val showRating = !ratingText.isNullOrBlank()
+            rating?.isVisible = showRating
+            if(showRating) {
                 rating?.text = ratingText
             }
         }
